@@ -130,7 +130,7 @@ pip3.10 install -r requirements.txt
 ```
 
 
-When you're done working, you can deactivate the virtual environment by running:
+When you're done working, you can deactivate the virtual environment by running the following command.  You do not need to do this until you are done with the lab assignment - and only if you want to:
 
 ```bash
 deactivate
