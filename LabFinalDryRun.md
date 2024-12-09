@@ -139,7 +139,7 @@ deactivate
 Your terminal prompt will return to its normal state.  You can do this after you want at the very end - but it is not necessary.
 
 #### **3. Implement Basic Functionality**
-1. Create a `routes.py` file with a Flask route that fetches weather alerts using the Weather.gov API:
+1. Edit the file `routes.py` file with a Flask route that fetches weather alerts using the Weather.gov API.  You can copy and paste what you see below into that file.  You should study the API here - https://www.weather.gov/documentation/services-web-api - clicking on the Specification tab to understand what the service does:
 
    ```python
    from flask import Flask, render_template, jsonify
