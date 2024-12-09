@@ -231,10 +231,6 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    # Run tests
-    - name: Run integration tests
-      run: pytest tests/
-
     # Log in to Docker Hub
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
@@ -256,36 +252,6 @@ Cricially, you now need to head over to github.com, go to that repo, and add the
 
 ![My Diagram1](secrets.png)
 
-
-2. Add a simple integration test in `tests/test_integration.py`.  It is cricial you realize that what you see below will not work in the final.  There is one item you will need to change.  It will have to do with the client.get bit:
-
-```python
-import sys
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from app.routes import app
-
-import pytest
-from app.routes import app  # Import the app object from app.routes
-
-@pytest.fixture
-def client():
-    """Set up the Flask test client for integration testing."""
-    with app.test_client() as client:
-        yield client
-
-def test_home_route(client):
-    """Integration test for the '/' route."""
-    response = client.get("/")
-    assert response.status_code == 200  # Check HTTP status
-
-def test_alerts_route(client):
-    """Integration test for the '/alerts' route with real API interaction."""
-    response = client.get("/alerts")
-    
-    # Assert the route responds with JSON and status 200
-    assert response.status_code == 200
-```
 
 ---
 
