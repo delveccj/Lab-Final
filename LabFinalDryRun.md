@@ -250,7 +250,7 @@ Cricially, you now need to head over to github.com, go to that repo, and add the
 ![My Diagram1](secrets.png)
 
 
-2. Add a simple integration test in `tests/test_integration.py`:
+2. Add a simple integration test in `tests/test_integration.py`.  It is cricial you realize that what you see below will not work in the final.  There is one item you will need to change.  It will have to do with the client.get bit:
 
 ```python
 import sys
