@@ -171,6 +171,13 @@ Your terminal prompt will return to its normal state.  You can do this after you
 
 3. Create a simple `index.html` file in the `templates/` directory with a form to fetch alerts.  During the lab final - what you will need to implement will be different - but similar.  You will need to reveiw the API specificaiton for NOAA, find the endpoint I describe, and then create the HTML page to display the pretty results.  You are free to use ChatGPT to help you out with the functionality!
 
+4. You should now run the application.  At the command prompt run:
+
+```bash
+python3.10 app.py
+
+``` 
+
 ---
 
 #### **4. Dockerize the Application**
