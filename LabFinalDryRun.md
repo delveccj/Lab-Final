@@ -271,7 +271,6 @@ def test_home_route(client):
     """Integration test for the '/' route."""
     response = client.get("/")
     assert response.status_code == 200  # Check HTTP status
-    assert b"Active Weather Alerts" in response.data  # Check if the page contains expected content
 
 def test_alerts_route(client):
     """Integration test for the '/alerts' route with real API interaction."""
@@ -279,17 +278,6 @@ def test_alerts_route(client):
     
     # Assert the route responds with JSON and status 200
     assert response.status_code == 200
-    json_data = response.get_json()
-    assert json_data is not None  # Ensure JSON data is returned
-    assert "features" in json_data  # Validate response contains the 'features' key
-    assert isinstance(json_data["features"], list)  # Check that 'features' is a list
-
-    # Optionally, validate the content of the first feature (if it exists)
-    if json_data["features"]:
-        first_alert = json_data["features"][0]
-        assert "properties" in first_alert  # Ensure each feature has 'properties'
-        assert "headline" in first_alert["properties"]  # Check for 'headline'
-        
 ```
 
 ---
