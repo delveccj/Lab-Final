@@ -169,7 +169,7 @@ Your terminal prompt will return to its normal state.  You can do this after you
        app.run(host="0.0.0.0", port=5000)
    ```
 
-3. Create a simple `index.html` file in the `templates/` directory with a form to fetch alerts.  (During the lab final - what you will need to implement will be different - but similar.  You are free to use ChatGPT to help you out with the functionality!)
+3. Create a simple `index.html` file in the `templates/` directory with a form to fetch alerts.  During the lab final - what you will need to implement will be different - but similar.  You will need to reveiw the API specificaiton for NOAA, find the endpoint I describe, and then create the HTML page to display the pretty results.  You are free to use ChatGPT to help you out with the functionality!
 
 ---
 
