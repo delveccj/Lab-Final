@@ -248,7 +248,7 @@ jobs:
       run: |
         docker push delveccj/dry-run:latest
 ```
-Cricially, you now need to head over to github.com, go to that repo, and add the action repository secret so that GitHub may push to Docker.  Remember that Dockerhub key you create - this is where you paste it.  You need to add the docker connectivity like so:
+Critically, you now need to head over to github.com, go to that repo, and add the action repository secret so that GitHub may push to Docker.  Remember that Dockerhub key you create - this is where you paste it.  You need to add the docker connectivity like so:
 
 ![My Diagram1](secrets.png)
 
