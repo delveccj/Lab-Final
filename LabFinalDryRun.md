@@ -93,13 +93,13 @@ weather-app/
 
 #### **2. Install Flask**
 1. In the `requirements.txt` file, add:
-   
-   ```bash
+
+```bash
 Flask==2.1.3. 
 Werkzeug==2.1.2
 requests==2.28.1
 pytest==7.4.0
-   ```
+```
 
 2. Run `pip install -r requirements.txt` to install dependencies.
 3. Note, these are probably the libraries you need but you might need something different based on the basic functionality you implement in the next step.
