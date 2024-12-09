@@ -107,7 +107,7 @@ Next you will crate a virtual environment in python.  Creating and activating a 
 Run the following command to create a virtual environment in your project directory:
 
 ```bash
-python -m venv venv
+python3.10 -m venv venv
 ```
 
 - `venv` is the directory name where the virtual environment will be created. You can replace it with another name if you prefer (e.g., `env` or `.venv`).  Next, activate the virtual environment like so:
