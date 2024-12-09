@@ -102,7 +102,7 @@ pytest==7.4.0
 ```
 Note, these are probably the libraries you need but you might need something different based on the basic functionality you implement in the next step (Step 3).
 
-Creating and activating a virtual environment in Python is simple! Here's how you can do it step by step:
+Next you will crate a virtual environment in python.  Creating and activating a virtual environment in Python is simple! Here's how you can do it step by step:
 
 Run the following command to create a virtual environment in your project directory:
 
