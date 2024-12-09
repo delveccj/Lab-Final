@@ -100,9 +100,7 @@ Werkzeug==2.1.2
 requests==2.28.1
 pytest==7.4.0
 ```
-
-2. Run `pip install -r requirements.txt` to install dependencies.
-3. Note, these are probably the libraries you need but you might need something different based on the basic functionality you implement in the next step.
+Note, these are probably the libraries you need but you might need something different based on the basic functionality you implement in the next step (Step 3).
 
 Creating and activating a virtual environment in Python is simple! Here's how you can do it step by step:
 
