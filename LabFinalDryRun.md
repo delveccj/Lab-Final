@@ -195,7 +195,7 @@ Your terminal prompt will return to its normal state.  You can do this after you
 Once it is running, you can test it out to make sure it does what you expected!
 
 #### **5. Add a CI/CD Workflow**
-1. In `.github/workflows/ci.yml`, add the following:
+1. In `.github/workflows/ci.yml`, add the following.  Note - there is one item in here you will need to change.  You will need to figure out what:
 
 ```yaml
 name: CI/CD Pipeline
