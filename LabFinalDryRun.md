@@ -95,7 +95,7 @@ weather-app/
 1. In the `requirements.txt` file, add:
 
 ```bash
-Flask==2.1.3. 
+Flask==2.1.3 
 Werkzeug==2.1.2
 requests==2.28.1
 pytest==7.4.0
