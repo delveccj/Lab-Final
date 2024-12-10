@@ -183,7 +183,7 @@ Your terminal prompt will return to its normal state.  You can do this after you
 3. Edit the `index.html` file in the `templates/` directory and create a script that will fetch the stations and place them in a prettified HTML page.  Here is an example of what is meant by 'prettified' - the JSON list is turned into a visually appealing presentation.
 ![My Diagram1](pretty_stations.png)
 
-You are free to use ChatGPT to help you out with the functionality!
+You are free to use ChatGPT to help you create the ```index.html``` page.  Talk it over with your virtual software engineering assistant.  If you go to this URL, you will see the JSON returned:  https://api.weather.gov/stations
 
 6. You should now run the application.  At the command prompt run:
 
