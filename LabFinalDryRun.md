@@ -6,14 +6,13 @@ In this lab, you will create a simple Weather Application that uses the Weather.
 - Configuring a CI/CD pipeline.
 - Dockerizing your application and pushing it to Docker Hub.
 - Building a basic UI for user interaction.
-- Writing an integration test to verify the API integration works.
 
 By the end of this lab, you will have a working application framework that can be enhanced during the lab final.
 
 You will perform this lab on the machines in the Cybersecurity lab.  You will use the Ubuntu partition.  
 
 ---
-### **Command for Issues Along the Way** ###
+### **Commands for Issues Along the Way** ###
 If you get an error realted to creating the virtual environment:
 
 ```bash
