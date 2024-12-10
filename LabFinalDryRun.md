@@ -80,10 +80,10 @@ Once the token is created, copy it into a file and save it!  You will need this 
 1. Go to [GitHub](https://github.com/) and create a new private repository called ```weather-station-app```.  Invite your instructor to it as a collaborator.  The username to invite is:  delveccj
 2. Be sure to add a README to the repo from github.  This will make life easier later on.
 2. Clone the repository to your local machine.
-3. Set up the following directory structure:
+3. Set up the following directory structure. Hint - some students were able to use ChatGPT to help them out with this task:
 
 ```
-weather-app/
+weather-station-app/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml       # CI/CD workflow
