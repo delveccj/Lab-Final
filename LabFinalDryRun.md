@@ -13,6 +13,18 @@ By the end of this lab, you will have a working application framework that can b
 You will perform this lab on the machines in the Cybersecurity lab.  You will use the Ubuntu partition.  
 
 ---
+### **Command for Issues Along the Way** ###
+If you get an error realted to creating the virtual environment:
+
+```bash
+sudo apt update
+sudo apt install python3.10-venv
+```
+
+If you get an error related to permissions for building or running Docker:
+```bash
+sudo usermod -aG docker $USER
+```
 
 ### **Steps**
 
