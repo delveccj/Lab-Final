@@ -77,7 +77,7 @@ Create the token.  Be sure to select 'Read, Write, Delete'.  You need all three 
 Once the token is created, copy it into a file and save it!  You will need this later on.
 
 #### **3. Set Up Your Repository**
-1. Go to [GitHub](https://github.com/) and create a new private repository called `weather-app`.  Invite your instructor to it as a collaborator.  The username to invite is:  delveccj
+1. Go to [GitHub](https://github.com/) and create a new private repository called ```weather-station-app```.  Invite your instructor to it as a collaborator.  The username to invite is:  delveccj
 2. Be sure to add a README to the repo from github.  This will make life easier later on.
 2. Clone the repository to your local machine.
 3. Set up the following directory structure:
