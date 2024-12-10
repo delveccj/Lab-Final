@@ -290,12 +290,12 @@ Critically, you now need to head over to github.com, go to that repo, and add th
 
 ---
 
-### **Example Evaluation Criteria**
+### **Grading Rubric**
 Point totals on final will probably be different than this.
 
 1. **Repository Setup** (10 points): Proper structure, GitHub setup, and initial commit.
-2. **API Integration** (20 points): Working alerts endpoint.
-3. **Dockerization** (20 points): Successfully containerized application.
-4. **CI/CD Workflow** (20 points): GitHub Actions workflow passes.
-5. **UI Implementation** (30 points): Functional and user-friendly interface.
+2. **API Integration** (10 points): Working stations endpoint.
+3. **Dockerization** (10 points): Successfully containerized application.
+4. **CI/CD Workflow** (10 points): GitHub Actions workflow passes.
+5. **UI Implementation** (10 points): Functional and user-friendly interface.
 
