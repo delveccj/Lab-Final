@@ -273,7 +273,7 @@ jobs:
       run: |
         docker push delveccj/dry-run:latest
 ```
-Critically, you now need to head over to github.com, go to that repo, and add the action repository secret so that GitHub may push to Docker.  Remember that Dockerhub key you create - this is where you paste it.  You need to add the docker connectivity like so:
+Critically, you now need to head over to github.com, go to that repo, and add the action repository secret so that GitHub may push to Docker.  Remember that Dockerhub key you created - this is where you paste it.  You need to add the docker connectivity like so:
 
 ![My Diagram1](secrets.png)
 
@@ -283,10 +283,9 @@ Critically, you now need to head over to github.com, go to that repo, and add th
 #### **7. Submission**
 
 
-1. Add and commit your code from the command line.
+1. Add and commit your code from the command line for the entire project.
 2. Push your code to your GitHub repository.
 2. Ensure the CI/CD workflow passes.  It will probably fail the first time - work your way through the messages!
-3. Share your GitHub repository link with the instructor.
 4. Demonstrate the working application in Docker.
 
 ---
