@@ -13,7 +13,7 @@ You will perform this lab on the machines in the Cybersecurity lab.  You will us
 
 ---
 ### **Commands for Issues Along the Way** ###
-If you get an error realted to creating the virtual environment:
+If you get an error related to creating the virtual environment:
 
 ```bash
 sudo apt update
