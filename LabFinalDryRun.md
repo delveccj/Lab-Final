@@ -266,12 +266,12 @@ jobs:
     # Build the Docker image
     - name: Build Docker image
       run: |
-        docker build -t delveccj/dry-run:latest .
+        docker build -t delveccj/395-lab-final:latest .
 
     # Push the Docker image
     - name: Push Docker image
       run: |
-        docker push delveccj/dry-run:latest
+        docker push delveccj/395-lab-final:latest
 ```
 Critically, you now need to head over to github.com, go to that repo, and add the action repository secret so that GitHub may push to Docker.  Remember that Dockerhub key you created - this is where you paste it.  You need to add the docker connectivity like so:
 
