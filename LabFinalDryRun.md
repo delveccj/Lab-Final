@@ -194,7 +194,7 @@ python3.10 app.py
 ---
 
 #### **4. Dockerize the Application**
-1. Create a `Dockerfile`:
+1. Edit the ```Dockerfile``` and add this content:
 
    ```dockerfile
    FROM python:3.9-slim
@@ -211,6 +211,12 @@ python3.10 app.py
    docker build -t weather-app .
    docker run -p 5000:5000 weather-app
    ```
+If you run into a permissions issue - issue this command:
+
+```bash
+sudo usermod -aG docker $USER
+```
+Once you do - you will need to log out and log back in.  Sorry!  
 
 Once it is running, you can test it out to make sure it does what you expected!
 
