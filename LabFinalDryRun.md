@@ -189,7 +189,7 @@ Your terminal prompt will return to its normal state.  You can do this after you
 3. Edit the `index.html` file in the `templates/` directory and create a script that will fetch the stations and place them in a prettified HTML page.  Here is an example of what is meant by 'prettified' - the JSON list is turned into a visually appealing presentation.
 ![My Diagram1](pretty_stations.png)
 
-You are free to use ChatGPT to help you create the ```index.html``` page.  Talk it over with your virtual software engineering assistant.  If you go to this URL, you will see the JSON the endpoint returns:  https://api.weather.gov/stations
+You are free to use ChatGPT to help you create the ```index.html``` page.  Talk it over with your virtual software engineering assistant.  If you go to this URL, you will see what the JSON the endpoint returns:  https://api.weather.gov/stations
 
 6. You should now run the application and verify you are happy with it.  At the command prompt run:
 
@@ -227,7 +227,7 @@ Once you do - you will need to log out and log back in.  Sorry!
 Once it is running, you can test it out to make sure it does what you expected!
 
 #### **5. Add a CI/CD Workflow**
-1. In `.github/workflows/ci.yml`, add the following.  Note - there is one item in here you will need to change.  You will need to figure out what - read the file contents and it should be obvious:
+1. In `.github/workflows/ci.yml`, add the following.  Note - there are a couple items in here you will need to change.  You will need to figure out what - read the file contents and it should be obvious:
 
 ```yaml
 name: CI/CD Pipeline
