@@ -227,7 +227,7 @@ Once you do - you will need to log out and log back in.  Sorry!
 Once it is running, you can test it out to make sure it does what you expected!
 
 #### **5. Add a CI/CD Workflow**
-1. In `.github/workflows/ci.yml`, add the following.  Note - there is one item in here you will need to change.  You will need to figure out what:
+1. In `.github/workflows/ci.yml`, add the following.  Note - there is one item in here you will need to change.  You will need to figure out what - read the file contents and it should be obvious:
 
 ```yaml
 name: CI/CD Pipeline
