@@ -214,8 +214,8 @@ python3.10 app.py
 2. Build and run your Docker container:
 
    ```bash
-   docker build -t weather-app .
-   docker run -p 5000:5000 weather-app
+   docker build -t weather-station-app .
+   docker run -p 5000:5000 weather-station-app
    ```
 If you run into a permissions issue - issue this command:
 
