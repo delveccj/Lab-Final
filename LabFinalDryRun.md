@@ -9,7 +9,7 @@ In this lab, you will create a simple Weather Application that uses the Weather.
 
 By the end of this lab, you will have a working application framework that can be enhanced during the lab final.
 
-You will perform this lab on the machines in the Cybersecurity lab.  You will use the Ubuntu partition.  
+You will perform this lab on the machines in the Cybersecurity lab.  You will use the Ubuntu partition.  You may ask the Bank for help with questions - but it will cost you points on the grade assigned.  
 
 ---
 ### **Commands for Issues Along the Way** ###
