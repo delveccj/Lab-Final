@@ -120,6 +120,12 @@ Run the following command to create a virtual environment in your project direct
 ```bash
 python3.10 -m venv venv
 ```
+Note, if it complains venv is not installed, run this command:
+
+```bash
+sudo apt update
+sudo apt install python3.10-venv
+```
 
 - `venv` is the directory name where the virtual environment will be created. You can replace it with another name if you prefer (e.g., `env` or `.venv`).  Next, activate the virtual environment like so:
 
